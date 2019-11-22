@@ -1,0 +1,3 @@
+#bootstrap-override .nav a {
+color: #333; // applies to all of the ul links
+}
