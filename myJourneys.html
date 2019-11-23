@@ -46,8 +46,10 @@
             </ul>
         </div>
     </nav>
+
     <div class="container-fluid">
         <div class="row">
+            <!-- Meat Journey -->
             <div class="col-" style="align-content: right">
                 <div class="card journey_card">
                     <img src="images/products/chicken.jpg" class="card-img-top journey" alt="Meat Lover">
@@ -61,9 +63,24 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Mom Journey -->
+            <div class="col-" style="align-content: right">
+                <div class="card journey_card">
+                    <img src="images/products/koupepia.jpg" class="card-img-top journey" alt="Meat Lover">
+                    <div class="card-body journey_card_body">
+                        <h5 class="card-title" style="text-align: center;">My mom is better than yours!</h5>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#betterMomModal"><i
+                                class="fa fa-eye" aria-hidden="true"></i>&nbsp View</button>
+                        <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
+                        <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
+                            Delete</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Modal -->
+    <!-- Meat Lover Modal -->
     <div class="modal fade" id="meatLoverModal" tabindex="-1" role="dialog" aria-labelledby="meatLoverModalTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable " role="document">
@@ -97,6 +114,50 @@
                                     class="view_food" alt="Pork Chop"></div>
                             <div class="col-md-4 modal_picture"><img src="images/products/kebap.jpg" class="view_food"
                                     alt="Kebap"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  justify-content-between">
+                    <button class="btn btn-danger float-left"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
+                        Delete</button>
+                    <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp
+                        Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mom Modal -->
+    <div class="modal fade" id="betterMomModal" tabindex="-1" role="dialog" aria-labelledby="betterMomModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="betterMomModalTitle">My mom is better than yours!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4 modal_picture"><img src="images/products/agkinares.jpg"
+                                    class="view_food" alt="Agkinares"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/beans.jpg" class="view_food"
+                                    alt="Beans"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/gemista.jpg" class="view_food"
+                                    alt="Gemista"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/kleftiko.jpg"
+                                    class="view_food" alt="Kleftiko"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/kounoupidi.jpg"
+                                    class="view_food" alt="Kounoupidi"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/koupepia.jpg"
+                                    class="view_food" alt="koupepia"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/lasagna.jpg" class="view_food"
+                                    alt="Lasagna"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/village_salad.jpg"
+                                    class="view_food" alt="Village Salad"></div>
+                            <div class="col-md-4 modal_picture"><img src="images/products/halloumi.jpg"
+                                    class="view_food" alt="Halloumi"></div>
                         </div>
                     </div>
                 </div>
