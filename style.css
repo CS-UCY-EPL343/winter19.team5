@@ -1,3 +1,18 @@
 .dark {
     background-color: #222;
 }
+
+.food {
+    height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.explore_card {
+    width: 16rem;
+    margin: 0.5rem;
+}
+
+.explore_card_body {
+    padding: 0.75rem;
+}
