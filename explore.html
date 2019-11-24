@@ -91,7 +91,7 @@
         </form>
         <!-- hidden card na tis kano display -->
         <div class="journeysContent" id="journeysContent">
-            <div class="card explore_card text-white bg-dark" id="burgerJourney">
+            <div class="card explore_card text-white bg-dark" id="burgerJourney" hidden>
                 <img src="images/products/burger.jpg" class="card-img-top food" alt="Burger">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Burger</h5>
@@ -99,7 +99,7 @@
                             class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div class="card explore_card text-white bg-dark" id="chickenJourney">
+            <div class="card explore_card text-white bg-dark" id="chickenJourney" hidden>
                 <img src="images/products/chicken.jpg" class="card-img-top food" alt="Chicken">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Chicken</h5>
@@ -111,35 +111,40 @@
                 <img src="images/products/kleftiko.jpg" class="card-img-top food" alt="Kleftiko">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Kleftiko</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('kleftikoJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="bonetJourney" hidden>
                 <img src="images/products/bonet.jpg" class="card-img-top food" alt="Bonet">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Bonet</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('bonetJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="saganakiJourney" hidden>
                 <img src="images/products/saganaki.jpg" class="card-img-top food" alt="Saganaki">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Saganaki</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('saganakiJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="maridesJourney" hidden>
                 <img src="images/products/marides.jpg" class="card-img-top food" alt="Marides">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Fresh Marides</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('maridesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="paellaJourney" hidden>
                 <img src="images/products/paella.jpg" class="card-img-top food" alt="Paella">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Paella</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('paellaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="chocolatestrawberriesJourney" hidden>
@@ -147,252 +152,288 @@
                     alt="Chocolate-Strawberries">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Sweet Strawberries</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('chocolatestrawberriesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="salmonJourney" hidden>
                 <img src="images/products/salmon.jpg" class="card-img-top food" alt="Salmon">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Salmon</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('salmonJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="greeksaladJourney" hidden>
                 <img src="images/products/greek%20salad.jpg" class="card-img-top food" alt="Greek Salad">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Greek Salad</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('greeksaladJourney')"
+                        onclick="hideJourney('burgerJourney')"><i class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="yoghurtJourney" hidden>
                 <img src="images/products/goat%20yoghurt.jpg" class="card-img-top food" alt="Goat Yoghurt">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Goat Yoghurt</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('yoghurtJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="potatoesJourney" hidden>
                 <img src="images/products/jacked%20potato.jpg" class="card-img-top food" alt="Jacked Potatoes">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Jacked Potatoes</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('potatoesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="grilledchickenJourney" hidden>
                 <img src="images/products/bbq-chicken.jpg" class="card-img-top food" alt="Grilled chicken thigh">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Grilled Chicken Thigh</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('grilledchickenJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="souvlakiJourney" hidden>
                 <img src="images/products/souvlaki.jpg" class="card-img-top food" alt="Souvlaki">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Souvlaki</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('souvlakiJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="pizzaJourney" hidden>
                 <img src="images/products/pizza.jpg" class="card-img-top food" alt="Pizza">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Pizza</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('pizzaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="tortillaJourney" hidden>
                 <img src="images/products/tortilla.jpeg" class="card-img-top food" alt="Tortilla">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Tortilla</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('tortillaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="gyrosJourney" hidden>
                 <img src="images/products/gyros.jpg" class="card-img-top food" alt="Gyros">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Gyros</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('gyrosJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="clubsanswichJourney" hidden>
                 <img src="images/products/club.jpg" class="card-img-top food" alt="Club Sandwich">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Club Sandwich</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('clubsanswichJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="saladJourney" hidden>
                 <img src="images/products/salad.jpg" class="card-img-top food" alt="Salad">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Burger</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('saladJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="noodlesJourney" hidden>
                 <img src="images/products/noodles.jpg" class="card-img-top food" alt="Noodles">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Noodles</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('noodlesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="sushiJourney" hidden>
                 <img src="images/products/sushi.jpg" class="card-img-top food" alt="Sushi">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Sushi</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('sushiJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="doughnutsJourney" hidden>
                 <img src="images/products/doughnuts.jpg" class="card-img-top food" alt="Doughnuts">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Doughnuts</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('doughnutsJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="fruitcakeJourney" hidden>
                 <img src="images/products/fruit_cake.jpg" class="card-img-top food" alt="Fruit Cake">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Fruit Cake</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('fruitcakeJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="coffeeJourney" hidden>
                 <img src="images/products/coffee.jpg" class="card-img-top food" alt="Coffee">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Coffee</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('coffeeJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="loukoumadesJourney" hidden>
                 <img src="images/products/loukoumades.jpg" class="card-img-top food" alt="Loukoumades">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Loukoumades</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('loukoumadesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="revithiaJourney" hidden>
                 <img src="images/products/revithia.jpg" class="card-img-top food" alt="Revithia">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Revithia</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('revithiaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="roquefortJourney" hidden>
                 <img src="images/products/rokfor.jpg" class="card-img-top food" alt="Roquefort">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Roquefort</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('roquefortJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="agkinaresJourney" hidden>
                 <img src="images/products/agkinares.jpg" class="card-img-top food" alt="Agkinares">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Agkinares</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('agkinaresJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="sardelesJourney" hidden>
                 <img src="images/products/sardeles.jpg" class="card-img-top food" alt="Sardeles">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Sardeles</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('sardelesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="kounoupidiJourney" hidden>
                 <img src="images/products/kounoupidi.jpg" class="card-img-top food" alt="Kounoupidi">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Kounoupidi</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('kounoupidiJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="beansJourney" hidden>
                 <img src="images/products/beans.jpg" class="card-img-top food" alt="Beans">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Beans</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('beansJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="koupesJourney" hidden>
                 <img src="images/products/koupes.jpg" class="card-img-top food" alt="Koupes">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Koupes</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('koupesJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="koupepiaJourney" hidden>
                 <img src="images/products/koupepia.jpg" class="card-img-top food" alt="Koupepia">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Koupepia</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('koupepiaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="sweetsourJourney" hidden>
                 <img src="images/products/sweetandsour.jpg" class="card-img-top food" alt="Sweet & Sour">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Sweet & Sour</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('sweetsourJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="steakJourney" hidden>
                 <img src="images/products/steak.jpg" class="card-img-top food" alt="Steak">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Steak</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('steakJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="villagesaladJourney" hidden>
                 <img src="images/products/village_salad.jpg" class="card-img-top food" alt="Village Salad">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Village Salad</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('villagesaladJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="ribsJourney" hidden>
                 <img src="images/products/ribs.jpg" class="card-img-top food" alt="BBQ Ribs">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">BBQ Ribs</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('ribsJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="friedchickenJourney" hidden>
                 <img src="images/products/friedchicken.jpeg" class="card-img-top food" alt="Fried Chicken">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Fried Chicken</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('friedchickenJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="lasagnaJourney" hidden>
                 <img src="images/products/lasagna.jpg" class="card-img-top food" alt="Lasagna">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Lasagna</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('lasagnaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="porkchopJourney" hidden>
                 <img src="images/products/porkchop.jpg" class="card-img-top food" alt="Pork Chop">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Pork Chop</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('porkchopJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="gemistaJourney" hidden>
                 <img src="images/products/gemista.jpg" class="card-img-top food" alt="Gemista">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Gemista</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('gemistaJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="halloumiJourney" hidden>
                 <img src="images/products/halloumi.jpg" class="card-img-top food" alt="Halloumi">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Halloumi</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('halloumiJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="card explore_card text-white bg-dark" id="kebapJourney" hidden>
                 <img src="images/products/kebap.jpg" class="card-img-top food" alt="Kebap">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Kebap</h5>
-                    <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="btn btn-danger float-right" onclick="hideJourney('kebapJourney')"><i
+                            class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
@@ -428,7 +469,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('chickenJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -445,7 +487,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('souvlakiJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -461,7 +504,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('pizzaJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -477,7 +521,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('tortillaJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -493,7 +538,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('gyrosJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -509,7 +555,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('clubsanswichJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -525,8 +572,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('saladJourney')">
+                                <i class="fa fa-plus" aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
@@ -541,7 +588,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('noodlesJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -557,7 +605,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('sushiJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -573,7 +622,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('doughnutsJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -589,7 +639,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('fruitcakeJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -605,7 +656,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('coffeeJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
@@ -621,7 +673,8 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('kleftikoJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
