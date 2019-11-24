@@ -3,7 +3,11 @@ function hideJourney(id) {
 }
 
 function addToJourney(id) {
-    document.getElementById(id).hidden = false;
+    if (document.getElementById(id).hidden === false) {
+        console.log("Exists");
+    } else {
+        document.getElementById(id).hidden = false;
+    }
 }
 
 function CustomAlert() {
