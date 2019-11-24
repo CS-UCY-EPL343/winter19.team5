@@ -18,7 +18,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src=".\scripts\hideElement.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -50,61 +49,40 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Georgia
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg-right shadow-lg p-3 mb-5" style="width:300px"
-                    aria-labelledby=" dropdownMenuButton">
-                    <h4 class="dropdown-item">Georgia Kapitsaki</h4>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-history  fa-lg" aria-hidden="true"></i>&nbsp Past
-                            Orders</h6>
-                    </a>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-home  fa-lg" aria-hidden="true"></i>&nbsp Addresses</h6>
-                    </a>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-cog fa-lg" aria-hidden="true"></i>&nbsp Settings</h6>
-                    </a>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-language  fa-lg" aria-hidden="true"></i>&nbsp Language</h6>
-                    </a>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-adjust  fa-lg" aria-hidden="true"></i>&nbsp Dark
-                            Mode</h6>
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">
-                        <h6><i class="fa fa-sign-out  fa-lg" aria-hidden="true"></i>&nbsp Logout</h6>
-                    </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Options</a>
+                    <a class="dropdown-item" href="#">Log Out</a>
                 </div>
             </div>
+        </div>
     </nav>
     <div class="jumbotron jumbotron-fluid" style="margin:10px;">
         <div class="container">
-            <h1 class="display-4">Food that I love :)</h1>
+            <h1 class="display-4">Food that I love</h1>
             <p class="lead">I could eat these food all day!</p>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-" id="bonetCard" style="align-content: right">
+            <div class="col-" id="bonetCard" style="align-content: right" >
                 <div class="card explore_card">
                     <img src="images/products/bonet.jpg" class="card-img-top food" alt="Bonet">
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Bonet</h5>
                         <p class="card-text" style="text-align: center">Chocolate sweet</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('bonetCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('bonetCard')"><i class="fa fa-trash"
+                                aria-hidden="true" ></i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-" id="saganakiCard" style="align-content: right">
+            <div class="col-" id="saganakiCard" style="align-content: right" >
                 <div class="card explore_card">
                     <img src="images/products/saganaki.jpg" class="card-img-top food" alt="Saganaki">
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Saganaki</h5>
                         <p class="card-text" style="text-align: center">With honey and sesame</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('saganakiCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('saganakiCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -114,8 +92,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Fresh Marides</h5>
                         <p class="card-text" style="text-align: center">Fried</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('maridesCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('maridesCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -125,8 +103,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Paella</h5>
                         <p class="card-text" style="text-align: center">Spanish dish with sea food</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('paellaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('paellaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -137,8 +115,7 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Sweet Strawberries</h5>
                         <p class="card-text" style="text-align: center">Chocolate + Fruit lover!</p>
-                        <button class="btn btn-danger float-right"
-                            onclick="hideElement('chocolate-strawberriesCard')"><i class="fa fa-trash"
+                        <button class="btn btn-danger float-right" onclick="hideElement('chocolate-strawberriesCard')"><i class="fa fa-trash"
                                 aria-hidden="true"></i></button>
                     </div>
                 </div>
@@ -149,8 +126,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Salmon</h5>
                         <p class="card-text" style="text-align: center">Baked</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('salmonCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('salmonCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -160,8 +137,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Greek Salad</h5>
                         <p class="card-text" style="text-align: center">Fresh Greek traditional salad</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('greeksaladCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('greeksaladCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -171,8 +148,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Goat Yoghurt</h5>
                         <p class="card-text" style="text-align: center">Yoghurt made by Goat Milk</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('goatyoghurtCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('goatyoghurtCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -182,8 +159,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Jacked Potatoes</h5>
                         <p class="card-text" style="text-align: center">With cheese filling</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('jackedpotatoCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('jackedpotatoCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -193,8 +170,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Grilled Chicken Thigh</h5>
                         <p class="card-text" style="text-align: center">With BBQ-sauce Covering!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('bbq-chickenCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('bbq-chickenCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -204,8 +181,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Burger</h5>
                         <p class="card-text" style="text-align: center">Juicy burgers!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('burgerCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('burgerCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -215,8 +192,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Chicken</h5>
                         <p class="card-text" style="text-align: center">Fresh Chicken!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('chickenCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('chickenCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -226,8 +203,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Souvlaki</h5>
                         <p class="card-text" style="text-align: center">Delicious Souvlaki!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('souvlakiCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('souvlakiCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -237,8 +214,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Pizza</h5>
                         <p class="card-text" style="text-align: center">Delicious Pizza!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('pizzaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('pizzaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -248,8 +225,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Tortilla</h5>
                         <p class="card-text" style="text-align: center">Delicious Tortilla!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('tortillaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('tortillaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -259,8 +236,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Gyros</h5>
                         <p class="card-text" style="text-align: center">Delicious Gyros!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('gyrosCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('gyrosCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -270,8 +247,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Club Sandwich</h5>
                         <p class="card-text" style="text-align: center">Delicious Club Sandwich!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('clubCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('clubCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -281,8 +258,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Burger</h5>
                         <p class="card-text" style="text-align: center">Fresh Salad!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('saladCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('saladCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -292,8 +269,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Noodles</h5>
                         <p class="card-text" style="text-align: center">Fresh Noodles!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('noodlesCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('noodlesCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -303,8 +280,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Sushi</h5>
                         <p class="card-text" style="text-align: center">Delicious Sushi!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('sushiCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('sushiCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -314,8 +291,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Doughnuts</h5>
                         <p class="card-text" style="text-align: center">Fresh Doughnuts!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('doughnutsCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('doughnutsCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -325,8 +302,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Fruit Cake</h5>
                         <p class="card-text" style="text-align: center">Delicious Fruit Cake!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('fruit_cakeCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('fruit_cakeCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -336,8 +313,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Coffee</h5>
                         <p class="card-text" style="text-align: center">Fresh Coffee!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('coffeeCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('coffeeCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -347,8 +324,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Kleftiko</h5>
                         <p class="card-text" style="text-align: center">Stolen meat!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('kleftikoCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('kleftikoCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -358,8 +335,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Loukoumades</h5>
                         <p class="card-text" style="text-align: center">Honney is running!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('loukoumadesCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('loukoumadesCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -369,8 +346,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Revithia</h5>
                         <p class="card-text" style="text-align: center">Soup with chickpeas and lemon</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('revithiaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('revithiaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -380,8 +357,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Roquefort</h5>
                         <p class="card-text" style="text-align: center">Cheese from South France</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('rokforCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('rokforCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -391,8 +368,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Agkinares</h5>
                         <p class="card-text" style="text-align: center">Fresh cardoons with carrots</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('agkinaresCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('agkinaresCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -402,8 +379,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Sardeles</h5>
                         <p class="card-text" style="text-align: center">Salted sardines</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('sardelesCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('sardelesCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -413,8 +390,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Kounoupidi</h5>
                         <p class="card-text" style="text-align: center">Boiled cauliflower wih salt</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('kounoupidiCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('kounoupidiCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -424,8 +401,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Beans</h5>
                         <p class="card-text" style="text-align: center">Not for astronauts!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('beansCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('beansCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -435,8 +412,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Koupes</h5>
                         <p class="card-text" style="text-align: center">Traditional Cypriot!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('koupesCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('koupesCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -446,8 +423,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Koupepia</h5>
                         <p class="card-text" style="text-align: center">Delicous roll!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('koupepiaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('koupepiaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -457,8 +434,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Sweet & Sour</h5>
                         <p class="card-text" style="text-align: center">Chinesse chicken meat</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('sweetandsourCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('sweetandsourCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -468,8 +445,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Steak</h5>
                         <p class="card-text" style="text-align: center">For meat lovers</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('steakCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('steakCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -479,8 +456,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Village Salad</h5>
                         <p class="card-text" style="text-align: center">Exotic village salad</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('villagesaladCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('villagesaladCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -490,8 +467,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">BBQ Ribs</h5>
                         <p class="card-text" style="text-align: center">Pork with bones!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('ribsCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('ribsCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -501,8 +478,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Fried Chicken</h5>
                         <p class="card-text" style="text-align: center">KFC alternative</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('friedchickenCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('friedchickenCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -512,8 +489,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Lasagna</h5>
                         <p class="card-text" style="text-align: center">Garfield's favorite</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('lasagnaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('lasagnaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -523,8 +500,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Pork Chop</h5>
                         <p class="card-text" style="text-align: center">Meat with a long bone.</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('porkchopCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('porkchopCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -534,8 +511,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Gemista</h5>
                         <p class="card-text" style="text-align: center">Vegetables with rice.</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('gemistaCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('gemistaCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -545,8 +522,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Halloumi</h5>
                         <p class="card-text" style="text-align: center">Best cheese in the Universe.</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('halloumiCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('halloumiCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -556,8 +533,8 @@
                     <div class="card-body explore_card_body">
                         <h5 class="card-title" style="text-align: center">Kebap</h5>
                         <p class="card-text" style="text-align: center">Turkish meat!</p>
-                        <button class="btn btn-danger float-right" onclick="hideElement('kebapCard')"><i
-                                class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="btn btn-danger float-right" onclick="hideElement('kebapCard')"><i class="fa fa-trash"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -568,6 +545,9 @@
             </button>
         </div>
     </div>
+	
+	<script src=".\scripts\hideElement.js"></script>
+	
 </body>
 
 </html>
