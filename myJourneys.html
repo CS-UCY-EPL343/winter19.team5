@@ -18,6 +18,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="sweetalert2.min.js"></script>
+    <script src="scripts/script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -94,7 +100,8 @@
                         <h5 class="card-title" style="text-align: center;">Meat Lover</h5>
                         <button class="btn btn-primary" data-toggle="modal" data-target="#meatLoverModal"><i
                                 class="fa fa-eye" aria-hidden="true"></i>&nbsp View</button>
-                        <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
+                        <button class="btn btn-primary" onclick="window.location.href='exploreDemoMeat.html'"><i
+                                class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
                         <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
                             Delete</button>
                     </div>
@@ -109,7 +116,8 @@
                         <h5 class="card-title" style="text-align: center;">My mom is better than yours!</h5>
                         <button class="btn btn-primary" data-toggle="modal" data-target="#betterMomModal"><i
                                 class="fa fa-eye" aria-hidden="true"></i>&nbsp View</button>
-                        <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
+                        <button class="btn btn-primary" onclick="window.location.href='exploreDemoMom.html'"><i
+                                class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
                         <button class="btn btn-danger float-right"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
                             Delete</button>
                     </div>
