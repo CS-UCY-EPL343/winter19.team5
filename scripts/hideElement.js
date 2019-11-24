@@ -2,7 +2,7 @@
 
 
 
-//dislikedProducts=new Array();
+
 
 function hideElement(id)
 {
@@ -11,13 +11,10 @@ function hideElement(id)
 		
 		var temp='#'+id;
 		$(temp).hide();
-	} else {
-    // Do nothing!
+	} 
+	else {
+   
 	}
 	
-	
-	
-	prompt("Please enter your name", "Harry Potter");
-	
-	
+
 }
