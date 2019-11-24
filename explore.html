@@ -18,7 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -228,11 +228,11 @@
                             class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
-            <div class="card explore_card text-white bg-dark" id="clubsanswichJourney" hidden>
+            <div class="card explore_card text-white bg-dark" id="clubsandwichJourney" hidden>
                 <img src="images/products/club.jpg" class="card-img-top food" alt="Club Sandwich">
                 <div class="card-body explore_card_body">
                     <h5 class="card-title float-left">Club Sandwich</h5>
-                    <button class="btn btn-danger float-right" onclick="hideJourney('clubsanswichJourney')"><i
+                    <button class="btn btn-danger float-right" onclick="hideJourney('clubsandwichJourney')"><i
                             class="fa fa-trash" aria-hidden="true"></i></button>
                 </div>
             </div>
@@ -442,7 +442,7 @@
     <div class="main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-" style="align-content: right">
+                <div class="col-" id="burgerExplore" style="align-content: right">
                     <div class="card explore_card">
                         <img src="images/products/burger.jpg" class="card-img-top food" alt="Burger">
                         <div class="card-body explore_card_body">
@@ -452,10 +452,50 @@
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('burgerJourney')"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('burgerJourney')"
+                                data-toggle="collapse" data-target="#collapseBurger" aria-expanded="false"
+                                aria-controls="collapseBurger"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
                                 Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="collapseBurger">
+                    <div class="col-" style="align-content: right" id="clubExplore">
+                        <div class="card explore_card">
+                            <img src="images/products/club.jpg" class="card-img-top food" alt="Club Sanwich">
+                            <div class="card-body explore_card_body">
+                                <h5 class="card-title" style="text-align: center;">Club Sanwich</h5>
+                                <p class="card-text" style="text-align: center">Delicious Club Sandwich!</p>
+                                <button class="btn btn-outline-success"><i class="fa fa-thumbs-up"
+                                        aria-hidden="true"></i></button>
+                                <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
+                                        aria-hidden="true"></i></button>
+                                <button class="btn btn-outline-primary float-right"
+                                    onclick="addToJourney('clubsandwichJourney')" data-toggle="collapse"
+                                    data-target="#collapseClubSanwich" aria-expanded="false"
+                                    aria-controls="collapseClubSanwich"><i class="fa fa-plus"
+                                        aria-hidden="true"></i>&nbsp
+                                    Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="collapseClubSanwich">
+                    <div class="col-" style="align-content: right" id="tortillaExplore">
+                        <div class="card explore_card">
+                            <img src="images/products/tortilla.jpeg" class="card-img-top food" alt="Tortilla">
+                            <div class="card-body explore_card_body">
+                                <h5 class="card-title" style="text-align: center;">Tortilla</h5>
+                                <p class="card-text" style="text-align: center">Delicious Tortilla!</p>
+                                <button class="btn btn-outline-success"><i class="fa fa-thumbs-up"
+                                        aria-hidden="true"></i></button>
+                                <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
+                                        aria-hidden="true"></i></button>
+                                <button class="btn btn-outline-primary float-right"
+                                    onclick="addToJourney('tortillaJourney')"><i class="fa fa-plus"
+                                        aria-hidden="true"></i>&nbsp
+                                    Add</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -556,7 +596,7 @@
                             <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('clubsanswichJourney')"><i class="fa fa-plus"
+                                onclick="addToJourney('clubsandwichJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
