@@ -18,6 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -319,12 +320,12 @@
                         <div class="card-body explore_card_body">
                             <h5 class="card-title" style="text-align: center">Loukoumades</h5>
                             <p class="card-text" style="text-align: center">Honney is running!</p>
-                            <button class="btn btn-outline-success"><i class="fa fa-thumbs-up"
+                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger"><i class="fa fa-thumbs-down"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
+                                    class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                            <button class="btn btn-outline-primary float-right" onclick="addToJourney()"><i
+                                    class="fa fa-plus" aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
