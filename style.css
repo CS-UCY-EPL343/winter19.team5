@@ -8,8 +8,13 @@
   object-fit: cover;
 }
 
+.explore_card_bar {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 .explore_card {
-  width: 16rem;
+  width: 18rem;
   margin: 6px;
 }
 

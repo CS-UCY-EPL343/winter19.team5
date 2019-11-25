@@ -117,7 +117,7 @@ function journeyCancel() {
 
     Toast.fire({
         icon: 'error',
-        title: 'Journey Cancelled!'
+        title: 'Journey Modification Cancelled!'
     });
 }
 
