@@ -1,6 +1,6 @@
 function hideJourney(id) {
 
-    $("#" + id).fadeOut(250);
+    document.getElementById(id).hidden = true;
     const Toast = Swal.mixin({
         toast: true,
         position: 'top',
@@ -121,6 +121,22 @@ function journeyCancel() {
     });
 }
 
+function journeyDelete() {
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.value) {
+            window.location.href = "explore.html";
+        }
+    });
+}
+
 function hideElement(id) {
     Swal.fire({
         title: 'Are you sure?',
@@ -139,5 +155,5 @@ function hideElement(id) {
                 'success'
             )
         }
-    })
+    });
 }
