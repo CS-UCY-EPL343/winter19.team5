@@ -468,421 +468,412 @@
                 <p class="lead">Click "+ Add" to add foods that you like in the Journey. </p>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-" id="burgerExplore" style="align-content: right">
+        <div class="card-deck" style="margin-left:6px;">
+            <div class="col-" id="burgerExplore" style="align-content: right">
+                <div class="card explore_card">
+                    <img src="images/products/burger.jpg" class="card-img-top food" alt="Burger">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center;">Burger</h5>
+                        <p class="card-text" style="text-align: center">Juicy burgers!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('burgerJourney')"
+                            data-toggle="collapse" data-target="#collapseBurger" aria-expanded="false"
+                            aria-controls="collapseBurger"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="collapseBurger">
+                <div class="col-" style="align-content: right" id="clubExplore">
                     <div class="card explore_card">
-                        <img src="images/products/burger.jpg" class="card-img-top food" alt="Burger">
+                        <img src="images/products/club.jpg" class="card-img-top food" alt="Club Sanwich">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center;">Burger</h5>
-                            <p class="card-text" style="text-align: center">Juicy burgers!</p>
+                            <h5 class="card-title" style="text-align: center;">Club Sanwich</h5>
+                            <p class="card-text" style="text-align: center">Delicious Club Sandwich!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
                                     class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('burgerJourney')"
-                                data-toggle="collapse" data-target="#collapseBurger" aria-expanded="false"
-                                aria-controls="collapseBurger"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('clubsandwichJourney')"><i class="fa fa-plus"
+                                    aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
-                <div class="collapse" id="collapseBurger">
-                    <div class="col-" style="align-content: right" id="clubExplore">
-                        <div class="card explore_card">
-                            <img src="images/products/club.jpg" class="card-img-top food" alt="Club Sanwich">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center;">Club Sanwich</h5>
-                                <p class="card-text" style="text-align: center">Delicious Club Sandwich!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                        class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('clubsandwichJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card explore_card">
+                    <img src="images/products/chicken.jpg" class="card-img-top food" alt="Chicken">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Chicken</h5>
+                        <p class="card-text" style="text-align: center">Fresh chicken!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('chickenJourney')"
+                            data-toggle="collapse" data-target="#collapseChicken" aria-expanded="false"
+                            aria-controls="collapseChicken"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-
-
-                <div class="col-" style="align-content: right">
+            </div>
+            <div class="collapse" id="collapseChicken">
+                <div class="col-" style="align-content: right" id="clubExplore">
                     <div class="card explore_card">
-                        <img src="images/products/chicken.jpg" class="card-img-top food" alt="Chicken">
+                        <img src="images/products/steak.jpg" class="card-img-top food" alt="Steak">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Chicken</h5>
-                            <p class="card-text" style="text-align: center">Fresh chicken!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                    class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('chickenJourney')"
-                                data-toggle="collapse" data-target="#collapseChicken" aria-expanded="false"
-                                aria-controls="collapseChicken"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseChicken">
-                    <div class="col-" style="align-content: right" id="clubExplore">
-                        <div class="card explore_card">
-                            <img src="images/products/steak.jpg" class="card-img-top food" alt="Steak">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center;">Steak</h5>
-                                <p class="card-text" style="text-align: center">For meat lovers</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                        class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('steakJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/souvlaki.jpg" class="card-img-top food" alt="Souvlaki">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Souvlaki</h5>
-                            <p class="card-text" style="text-align: center">Delicious Souvlaki!</p>
+                            <h5 class="card-title" style="text-align: center;">Steak</h5>
+                            <p class="card-text" style="text-align: center">For meat lovers</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
                                     class="fa fa-thumbs-down" aria-hidden="true"></i></button>
                             <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('souvlakiJourney')" data-toggle="collapse"
-                                data-target="#collapseKebap" aria-expanded="false" aria-controls="collapseKebap"><i
-                                    class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                                onclick="addToJourney('steakJourney')"><i class="fa fa-plus"
+                                    aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
-                <div class="collapse" id="collapseKebap">
-                    <div class="col-" style="align-content: right" id="clubExplore">
-                        <div class="card explore_card">
-                            <img src="images/products/kebap.jpg" class="card-img-top food" alt="Kebap">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center;">Kebap</h5>
-                                <p class="card-text" style="text-align: center">Turkish meat!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                        class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('kebapJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/souvlaki.jpg" class="card-img-top food" alt="Souvlaki">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Souvlaki</h5>
+                        <p class="card-text" style="text-align: center">Delicious Souvlaki!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('souvlakiJourney')"
+                            data-toggle="collapse" data-target="#collapseKebap" aria-expanded="false"
+                            aria-controls="collapseKebap"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-
-
-                <div class="col-" style="align-content: right">
+            </div>
+            <div class="collapse" id="collapseKebap">
+                <div class="col-" style="align-content: right" id="clubExplore">
                     <div class="card explore_card">
-                        <img src="images/products/pizza.jpg" class="card-img-top food" alt="Pizza">
+                        <img src="images/products/kebap.jpg" class="card-img-top food" alt="Kebap">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Pizza</h5>
-                            <p class="card-text" style="text-align: center">Delicious Pizza!</p>
+                            <h5 class="card-title" style="text-align: center;">Kebap</h5>
+                            <p class="card-text" style="text-align: center">Turkish meat!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
                                     class="fa fa-thumbs-down" aria-hidden="true"></i></button>
                             <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('pizzaJourney')"><i class="fa fa-plus"
+                                onclick="addToJourney('kebapJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/gyros.jpg" class="card-img-top food" alt="Gyros">
+            <div class="col-" style="align-content: right">
+                <div class="card explore_card">
+                    <img src="images/products/pizza.jpg" class="card-img-top food" alt="Pizza">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Pizza</h5>
+                        <p class="card-text" style="text-align: center">Delicious Pizza!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('pizzaJourney')"><i
+                                class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/gyros.jpg" class="card-img-top food" alt="Gyros">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Gyros</h5>
+                        <p class="card-text" style="text-align: center">Delicious Gyros!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('gyrosJourney')"
+                            data-toggle="collapse" data-target="#collapseGyros" aria-expanded="false"
+                            aria-controls="collapseGyros"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" collapse" id="collapseGyros">
+                <div class="col-" style="align-content: right" id="tortillaExplore">
+                    <div class="card explore_card">
+                        <img src="images/products/tortilla.jpeg" class="card-img-top food" alt="Tortilla">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Gyros</h5>
-                            <p class="card-text" style="text-align: center">Delicious Gyros!</p>
+                            <h5 class="card-title" style="text-align: center;">Tortilla</h5>
+                            <p class="card-text" style="text-align: center">Delicious Tortilla!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
                                     class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('gyrosJourney')"
-                                data-toggle="collapse" data-target="#collapseGyros" aria-expanded="false"
-                                aria-controls="collapseGyros"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('tortillaJourney')"><i class="fa fa-plus"
+                                    aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
-                <div class=" collapse" id="collapseGyros">
-                    <div class="col-" style="align-content: right" id="tortillaExplore">
-                        <div class="card explore_card">
-                            <img src="images/products/tortilla.jpeg" class="card-img-top food" alt="Tortilla">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center;">Tortilla</h5>
-                                <p class="card-text" style="text-align: center">Delicious Tortilla!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                        class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('tortillaJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/gemista.jpg" class="card-img-top food" alt="Gemista">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Gemista</h5>
+                        <p class="card-text" style="text-align: center">Vegetables with rice!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('gemistaJourney')"
+                            data-toggle="collapse" data-target="#collapseGemista" aria-expanded="false"
+                            aria-controls="collapseGemista"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-
-
+            </div>
+            <div class=" collapse" id="collapseGemista">
                 <div class="col-" style="align-content: right">
                     <div class="card  explore_card">
-                        <img src="images/products/gemista.jpg" class="card-img-top food" alt="Gemista">
+                        <img src="images/products/koupepia.jpg" class="card-img-top food" alt="Koupepia">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Gemista</h5>
-                            <p class="card-text" style="text-align: center">Vegetables with rice!</p>
+                            <h5 class="card-title" style="text-align: center">Koupepia</h5>
+                            <p class="card-text" style="text-align: center">Delicious roll!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
                                     class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('gemistaJourney')"
-                                data-toggle="collapse" data-target="#collapseGemista" aria-expanded="false"
-                                aria-controls="collapseGemista"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('koupepiaJourney')">
+                                <i class="fa fa-plus" aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
-                <div class=" collapse" id="collapseGemista">
-                    <div class="col-" style="align-content: right">
-                        <div class="card  explore_card">
-                            <img src="images/products/koupepia.jpg" class="card-img-top food" alt="Koupepia">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center">Koupepia</h5>
-                                <p class="card-text" style="text-align: center">Delicious roll!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                        class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('koupepiaJourney')">
-                                    <i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/village_salad.jpg" class="card-img-top food" alt="Village Salad">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Village Salad</h5>
+                        <p class="card-text" style="text-align: center">Exotic village salad!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+                                fa-thumbs-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right"
+                            onclick="addToJourney('villagesaladJourney')" data-toggle="collapse"
+                            data-target="#collapseVillageSalad" aria-expanded="false"
+                            aria-controls="collapseVillageSalad"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-
-
+            </div>
+            <div class=" collapse" id="collapseVillageSalad">
                 <div class="col-" style="align-content: right">
                     <div class="card  explore_card">
-                        <img src="images/products/village_salad.jpg" class="card-img-top food" alt="Village Salad">
+                        <img src="images/products/salad.jpg" class="card-img-top food" alt="Salad">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Village Salad</h5>
-                            <p class="card-text" style="text-align: center">Exotic village salad!</p>
+                            <h5 class="card-title" style="text-align: center">Salad</h5>
+                            <p class="card-text" style="text-align: center">Fresh Salad!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
-                                fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('villagesaladJourney')" data-toggle="collapse"
-                                data-target="#collapseVillageSalad" aria-expanded="false"
-                                aria-controls="collapseVillageSalad"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
-                    </div>
-                </div>
-                <div class=" collapse" id="collapseVillageSalad">
-                    <div class="col-" style="align-content: right">
-                        <div class="card  explore_card">
-                            <img src="images/products/salad.jpg" class="card-img-top food" alt="Salad">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center">Salad</h5>
-                                <p class="card-text" style="text-align: center">Fresh Salad!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
                                     fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('saladJourney')">
-                                    <i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/noodles.jpg" class="card-img-top food" alt="Noodles">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Noodles</h5>
-                            <p class="card-text" style="text-align: center">Fresh Noodles!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
-                                fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('noodlesJourney')"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
+                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('saladJourney')">
+                                <i class="fa fa-plus" aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/noodles.jpg" class="card-img-top food" alt="Noodles">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Noodles</h5>
+                        <p class="card-text" style="text-align: center">Fresh Noodles!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+                                fa-thumbs-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('noodlesJourney')"><i
+                                class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/sushi.jpg" class="card-img-top food" alt="Sushi">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Sushi</h5>
+                        <p class="card-text" style="text-align: center">Delicious Sushi!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+                                fa-thumbs-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('sushiJourney')"
+                            data-toggle="collapse" data-target="#collapseSushi" aria-expanded="false"
+                            aria-controls="collapseSushi"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" collapse" id="collapseSushi">
                 <div class="col-" style="align-content: right">
                     <div class="card  explore_card">
-                        <img src="images/products/sushi.jpg" class="card-img-top food" alt="Sushi">
+                        <img src="images/products/sardeles.jpg" class="card-img-top food" alt="Sardeles">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Sushi</h5>
-                            <p class="card-text" style="text-align: center">Delicious Sushi!</p>
+                            <h5 class="card-title" style="text-align: center">Sardeles</h5>
+                            <p class="card-text" style="text-align: center">Salted sardines!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
-                                fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right" onclick="addToJourney('sushiJourney')"
-                                data-toggle="collapse" data-target="#collapseSushi" aria-expanded="false"
-                                aria-controls="collapseSushi"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
-                    </div>
-                </div>
-                <div class=" collapse" id="collapseSushi">
-                    <div class="col-" style="align-content: right">
-                        <div class="card  explore_card">
-                            <img src="images/products/sardeles.jpg" class="card-img-top food" alt="Sardeles">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center">Sardeles</h5>
-                                <p class="card-text" style="text-align: center">Salted sardines!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
                                     fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('sardelesJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/doughnuts.jpg" class="card-img-top food" alt="Doughnuts">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Doughnuts</h5>
-                            <p class="card-text" style="text-align: center">Fresh Doughnuts!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
-                                fa-thumbs-down" aria-hidden="true"></i></button>
                             <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('doughnutsJourney')"><i class="fa fa-plus"
+                                onclick="addToJourney('sardelesJourney')"><i class="fa fa-plus"
                                     aria-hidden="true"></i>&nbsp
                                 Add</button>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/doughnuts.jpg" class="card-img-top food" alt="Doughnuts">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Doughnuts</h5>
+                        <p class="card-text" style="text-align: center">Fresh Doughnuts!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+                                fa-thumbs-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right"
+                            onclick="addToJourney('doughnutsJourney')"><i class="fa fa-plus"
+                                aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
 
 
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/fruit_cake.jpg" class="card-img-top food" alt="Fruit Cake">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Fruit Cake</h5>
+                        <p class="card-text" style="text-align: center">Delicious Fruit Cake!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+                                fa-thumbs-down" aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('fruitcakeJourney')"
+                            data-toggle="collapse" data-target="#collapseFruitCake" aria-expanded="false"
+                            aria-controls="collapseFruitCake"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="collapseFruitCake">
                 <div class="col-" style="align-content: right">
                     <div class="card  explore_card">
-                        <img src="images/products/fruit_cake.jpg" class="card-img-top food" alt="Fruit Cake">
+                        <img src="images/products/chocolate-strawberries.jpg" class="card-img-top food"
+                            alt="Chocolate Strawberries">
                         <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Fruit Cake</h5>
-                            <p class="card-text" style="text-align: center">Delicious Fruit Cake!</p>
+                            <h5 class="card-title" style="text-align: center">Chocolate Strawberries</h5>
+                            <p class="card-text" style="text-align: center">Covered with chocolate!</p>
                             <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
                                     aria-hidden="true"></i></button>
                             <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
-                                fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('fruitcakeJourney')" data-toggle="collapse"
-                                data-target="#collapseFruitCake" aria-expanded="false"
-                                aria-controls="collapseFruitCake"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseFruitCake">
-                    <div class="col-" style="align-content: right">
-                        <div class="card  explore_card">
-                            <img src="images/products/chocolate-strawberries.jpg" class="card-img-top food"
-                                alt="Chocolate Strawberries">
-                            <div class="card-body explore_card_body">
-                                <h5 class="card-title" style="text-align: center">Chocolate Strawberries</h5>
-                                <p class="card-text" style="text-align: center">Covered with chocolate!</p>
-                                <button class="btn btn-outline-success" onclick="addToLikes()"><i
-                                        class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
                                     fa-thumbs-down" aria-hidden="true"></i></button>
-                                <button class="btn btn-outline-primary float-right"
-                                    onclick="addToJourney('chocolatestrawberriesJourney')"><i class="fa fa-plus"
-                                        aria-hidden="true"></i>&nbsp
-                                    Add</button>
-                            </div>
+                            <button class="btn btn-outline-primary float-right"
+                                onclick="addToJourney('chocolatestrawberriesJourney')"><i class="fa fa-plus"
+                                    aria-hidden="true"></i>&nbsp
+                                Add</button>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/coffee.jpg" class="card-img-top food" alt="Coffee">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Coffee</h5>
-                            <p class="card-text" style="text-align: center">Fresh Coffee!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/coffee.jpg" class="card-img-top food" alt="Coffee">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Coffee</h5>
+                        <p class="card-text" style="text-align: center">Fresh Coffee!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
                                 fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('coffeeJourney')"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('coffeeJourney')"><i
+                                class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/kleftiko.jpg" class="card-img-top food" alt="Kleftiko">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Kleftiko</h5>
-                            <p class="card-text" style="text-align: center">Stolen meat!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
+            </div>
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/kleftiko.jpg" class="card-img-top food" alt="Kleftiko">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Kleftiko</h5>
+                        <p class="card-text" style="text-align: center">Stolen meat!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class=" fa
                                 fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('kleftikoJourney')"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
+                        <button class="btn btn-outline-primary float-right" onclick="addToJourney('kleftikoJourney')"><i
+                                class="fa fa-plus" aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
-                <div class="col-" style="align-content: right">
-                    <div class="card  explore_card">
-                        <img src="images/products/loukoumades.jpg" class="card-img-top food" alt="Loukoumades">
-                        <div class="card-body explore_card_body">
-                            <h5 class="card-title" style="text-align: center">Loukoumades</h5>
-                            <p class="card-text" style="text-align: center">Honney is running!</p>
-                            <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
-                                    aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-danger" onclick="addToDislikes()"><i
-                                    class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                            <button class="btn btn-outline-primary float-right"
-                                onclick="addToJourney('loukoumadesJourney')"><i class="fa fa-plus"
-                                    aria-hidden="true"></i>&nbsp
-                                Add</button>
-                        </div>
+            </div>
+            <div class="col-" style="align-content: right">
+                <div class="card  explore_card">
+                    <img src="images/products/loukoumades.jpg" class="card-img-top food" alt="Loukoumades">
+                    <div class="card-body explore_card_body">
+                        <h5 class="card-title" style="text-align: center">Loukoumades</h5>
+                        <p class="card-text" style="text-align: center">Honney is running!</p>
+                        <button class="btn btn-outline-success" onclick="addToLikes()"><i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-danger" onclick="addToDislikes()"><i class="fa fa-thumbs-down"
+                                aria-hidden="true"></i></button>
+                        <button class="btn btn-outline-primary float-right"
+                            onclick="addToJourney('loukoumadesJourney')"><i class="fa fa-plus"
+                                aria-hidden="true"></i>&nbsp
+                            Add</button>
                     </div>
                 </div>
             </div>
