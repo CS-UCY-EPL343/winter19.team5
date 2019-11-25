@@ -13,6 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
@@ -94,7 +95,7 @@
     <div class="container-fluid">
         <div class="row">
             <!-- Meat Journey -->
-            <div class="col-" id="meatJourneyCard"style="align-content: right">
+            <div class="col-" id="meatJourneyCard" style="align-content: right">
                 <div class="card journey_card">
                     <img src="images/journeys/meatlover.png" class="card-img-top journey" alt="Meat Lover">
                     <div class="card-body journey_card_body">
@@ -103,14 +104,15 @@
                                 class="fa fa-eye" aria-hidden="true"></i>&nbsp View</button>
                         <button class="btn btn-primary" onclick="window.location.href='exploreDemoMeat.html'"><i
                                 class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
-                        <button class="btn btn-danger float-right" onclick="hideElement('meatJourneyCard')"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
+                        <button class="btn btn-danger float-right" onclick="hideElement('meatJourneyCard')"><i
+                                class="fa fa-trash" aria-hidden="true"></i>&nbsp
                             Delete</button>
                     </div>
                 </div>
             </div>
 
             <!-- Mom Journey -->
-            <div class="col-" id="momJourneyCard"style="align-content: right">
+            <div class="col-" id="momJourneyCard" style="align-content: right">
                 <div class="card journey_card">
                     <img src="images/journeys/momjourney.png" class="card-img-top journey" alt="Meat Lover">
                     <div class="card-body journey_card_body">
@@ -119,13 +121,14 @@
                                 class="fa fa-eye" aria-hidden="true"></i>&nbsp View</button>
                         <button class="btn btn-primary" onclick="window.location.href='exploreDemoMom.html'"><i
                                 class="fa fa-cog" aria-hidden="true"></i>&nbsp Edit</button>
-                        <button class="btn btn-danger float-right" onclick="hideElement('momJourneyCard')"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
+                        <button class="btn btn-danger float-right" onclick="hideElement('momJourneyCard')"><i
+                                class="fa fa-trash" aria-hidden="true"></i>&nbsp
                             Delete</button>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-outline-secondary journey_card" onclick="window.location.href='explore.html'" style="height:380px"><i
-                    class="fa fa-plus fa-3x" aria-hidden="true"></i><br>
+            <button class="btn btn-outline-secondary journey_card" onclick="window.location.href='explore.html'"
+                style="height:380px"><i class="fa fa-plus fa-3x" aria-hidden="true"></i><br>
                 <h5>Create Journey</h5>
             </button>
         </div>
@@ -167,10 +170,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer  justify-content-between">
-                    <button class="btn btn-danger float-left"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
-                        Delete</button>
-                    <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='exploreDemoMeat.html'"><i class="fa fa-cog"
+                            aria-hidden="true"></i>&nbsp
                         Edit</button>
                 </div>
             </div>
@@ -211,10 +215,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer justify-content-between">
-                    <button class="btn btn-danger float-left"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp
-                        Delete</button>
-                    <button class="btn btn-primary"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location.href='exploreDemoMom.html'"><i class="fa fa-cog"
+                            aria-hidden="true"></i>&nbsp
                         Edit</button>
                 </div>
             </div>
