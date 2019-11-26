@@ -1,7 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"></head><body id="preview">
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Foody_Recommendation_Agent_0"></a>Foody Recommendation Agent</h1>
-<p class="has-line-data" data-line-start="2" data-line-end="4">The “Food Recommendation Agent” is a software system, which is going to provide services to the existing system of Foody (the “Foody Online Orders” system),<br>
-and which services are associated with recommending targeted foods to its customers by estimating and using their designated or/and possible preferences.</p>
+<p class="has-line-data" data-line-start="2" data-line-end="4">The “Food Recommendation Agent” is a software system, which is going to provide services to the existing system of Foody (the “Foody Online Orders” system),and which services are associated with recommending targeted foods to its customers by estimating and using their designated or/and possible preferences.</p>
 <h2 class="code-line" data-line-start=5 data-line-end=6 ><a id="Installation_5"></a>Installation</h2>
 <p class="has-line-data" data-line-start="7" data-line-end="8">There is no need for installation of any kind. In order to use FRA all you have to do is visit the online page: <a href="http://www.leoachilleos.xyz/">leoachilleos.xyz</a></p>
 <h2 class="code-line" data-line-start=9 data-line-end=10 ><a id="Usage_9"></a>Usage</h2>
