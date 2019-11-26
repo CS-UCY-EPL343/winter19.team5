@@ -35,7 +35,7 @@ or click on the <strong>Thumbs Down</strong> button to add it in the <strong>Dis
 <p class="has-line-data" data-line-start="35" data-line-end="37">This system was based on the utilization of the <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap 4.3</a> suite. In order for a change to be approved and accepted,<br>
 <strong>the use of Bootstrap 4.3 is one of the conditions</strong>.</p>
 <h2 class="code-line" data-line-start=38 data-line-end=39 ><a id="Authors_and_team_members_38"></a>Authors and team members</h2>
-<p class="has-line-data" data-line-start="39" data-line-end="44">Marios Pafitis (<a href="mailto:mpafit02@ucy.ac.cy">mpafit02@ucy.ac.cy</a>)<br>
+<p class="has-line-data" data-line-start="39" data-line-end="44">Marios Pafitis (email: <a href="mailto:mpafit02@ucy.ac.cy">mpafit02@ucy.ac.cy</a>)<br>
 Valentinos Pariza (email: <a href="mailto:vpariz01@ucy.ac.cy">vpariz01@ucy.ac.cy</a>)<br>
 Leonidas Achilleos (email: <a href="mailto:lachil01@ucy.ac.cy">lachil01@ucy.ac.cy</a>)<br>
 Stephanos Pantiaros  (email: <a href="mailto:spantz01@ucy.ac.cy">spantz01@ucy.ac.cy</a>)<br>
