@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>README</title><style></style></head><body id="preview">
+<!DOCTYPE html><html><head><meta charset="utf-8"></head><body id="preview">
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Foody_Recommendation_Agent_0"></a>Foody Recommendation Agent</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="4">The “Food Recommendation Agent” is a software system, which is going to provide services to the existing system of Foody (the “Foody Online Orders” system),<br>
 and which services are associated with recommending targeted foods to its customers by estimating and using their designated or/and possible preferences.</p>
@@ -36,11 +36,11 @@ or click on the <strong>Thumbs Down</strong> button to add it in the <strong>Dis
 <strong>the use of Bootstrap 4.3 is one of the conditions</strong>.</p>
 <h2 class="code-line" data-line-start=38 data-line-end=39 ><a id="Authors_and_team_members_38"></a>Authors and team members</h2>
 <p class="has-line-data" data-line-start="39" data-line-end="44">Marios Pafitis (<a href="mailto:mpafit02@ucy.ac.cy">mpafit02@ucy.ac.cy</a>)<br>
-Valentinos Pariza (email: )<br>
+Valentinos Pariza (email: <a href="mailto:vpariz01@ucy.ac.cy">vpariz01@ucy.ac.cy</a>)<br>
 Leonidas Achilleos (email: <a href="mailto:lachil01@ucy.ac.cy">lachil01@ucy.ac.cy</a>)<br>
 Stephanos Pantiaros  (email: <a href="mailto:spantz01@ucy.ac.cy">spantz01@ucy.ac.cy</a>)<br>
 Dimitris Shimitras (email: <a href="mailto:dshimi01@ucy.ac.cy">dshimi01@ucy.ac.cy</a>)</p>
 <h2 class="code-line" data-line-start=45 data-line-end=46 ><a id="License_45"></a>License</h2>
-<p class="has-line-data" data-line-start="46" data-line-end="47"><a href="https://choosealicense.com/licenses/gpl-3.0/">GNU GPLv3</a></p>
-
+<!-- <p class="has-line-data" data-line-start="46" data-line-end="47"><a href="https://choosealicense.com/licenses/gpl-3.0/">GNU GPLv3</a></p> -->
+<p>Private use only!</p>
 </body></html>
