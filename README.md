@@ -45,10 +45,10 @@ This system was based on the utilization of the [Bootstrap 4.3](https://getboots
 
 ## Authors and team members
 
-Marios Pafitis (mpafit02@ucy.ac.cy)
-Valentinos Pariza (email: vpariz01@ucy.ac.cy)
-Leonidas Achilleos (email: lachil01@ucy.ac.cy)
-Stephanos Pantiaros (email: spantz01@ucy.ac.cy)
+Marios Pafitis (mpafit02@ucy.ac.cy)  
+Valentinos Pariza (email: vpariz01@ucy.ac.cy)  
+Leonidas Achilleos (email: lachil01@ucy.ac.cy)  
+Stephanos Pantiaros (email: spantz01@ucy.ac.cy)  
 Dimitris Shimitras (email: dshimi01@ucy.ac.cy)
 
 ## License
