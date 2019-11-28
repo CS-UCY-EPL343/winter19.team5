@@ -7,6 +7,8 @@ and which services are associated with recommending targeted foods to its custom
 
 There is no need for installation of any kind. In order to use FRA all you have to do is visit the online page: [leoachilleos.xyz](http://www.leoachilleos.xyz/)
 
+**Note:** The website is not fully responsive, so you should use it only in a desktop browser such as Google Chrome, Microsoft Edge or Mozilla Firefox.
+
 ## Usage
 
 How to add items in your Likes/Dislikes list:
